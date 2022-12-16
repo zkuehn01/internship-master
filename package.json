@@ -1,0 +1,45 @@
+{
+  "name": "internships",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://zkuehn01.github.io",
+  "dependencies": {
+    "@handsontable/react": "^3.0.0",
+    "handsontable": "^7.1.0",
+    "node-modules": "^1.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.6.0",
+    "react-scripts": "^3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "description": "Please kindly consider starring this repo (top right corner) to help it grow and make revisiting it easier for you",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
