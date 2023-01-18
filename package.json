@@ -2,7 +2,7 @@
   "name": "internships",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zkuehn01.github.io",
+  "homepage": "https://zkuehn01.github.io/internship-master",
   "dependencies": {
     "@handsontable/react": "^3.0.0",
     "handsontable": "^7.1.0",

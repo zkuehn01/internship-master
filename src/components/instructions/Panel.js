@@ -24,15 +24,15 @@ This information will help you be better prepared to apply and companies will be
                     </p>
                    
                 </ol>
-                <h5 className="card-title">Contributions</h5>
+                <h5 className="card-title">Work Cited</h5>
                 <ol>
                      <p className="card-text tab">
-                        See <b>simple</b> steps <a href="https://zkuehn01.github.io/internship-master/" target="_blank" rel="noopener noreferrer">Here</a>
+                        The inspiration for this project are found <a href="https://github.com/Zackhardtoname/internships" target="_blank" rel="noopener noreferrer">Here</a>
                     </p>
                 </ol>
-                <p className="card-text tab">
-                    If you find the process above difficult, just make an issue in GitHub, and we would take a look.
-                </p>
+                {/* <p className="card-text tab">
+                    
+                </p> */}
                 
             </div>
         </div>
