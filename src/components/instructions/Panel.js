@@ -27,7 +27,7 @@ This information will help you be better prepared to apply and companies will be
                 <h5 className="card-title">Work Cited</h5>
                 <ol>
                      <p className="card-text tab">
-                        The inspiration for this project are found <a href="https://github.com/Zackhardtoname/internships" target="_blank" rel="noopener noreferrer">Here</a>
+                        The inspiration for this project can be found <a href="https://github.com/Zackhardtoname/internships" target="_blank" rel="noopener noreferrer">Here</a>
                     </p>
                 </ol>
                 {/* <p className="card-text tab">
