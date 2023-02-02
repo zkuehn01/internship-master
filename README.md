@@ -4,7 +4,7 @@ Please kindly consider starring this repo (top right corner) to help it grow and
 
 ## Use the List
 
-1. ## like Excel on a [website](https://zacklight.com/internships/) (URL might change so make sure to star this repo)!
+1. ## Here is the link to our GitHub Pages [website](https://zkuehn01.github.io/internship-master/) (URL might change so make sure to star this repo)!
 
 2. ## as a [markdown file](internships.md)!
 
