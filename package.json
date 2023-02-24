@@ -41,5 +41,13 @@
   "description": "Please kindly consider starring this repo (top right corner) to help it grow and make revisiting it easier for you",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkuehn01/internship-master.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/zkuehn01/internship-master/issues"
+  }
 }
