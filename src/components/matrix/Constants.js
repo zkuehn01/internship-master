@@ -1,8 +1,8 @@
-import internships from "./internships"
-
 export const columnDelimiter = ","
+export const colHeaders = ["Company", "Position", "Location", "Notes", "URL",  "Application Open Date", "Application Deadline", "Education", 
+"Requirements", "MinimumRange", "MaximumRange", "Status"]
 
-export const colHeaders = ["Name (URL)", "Position", "Location", "Class Year", "International", "Notes", "URL", "Seasons", "Application Deadline", "Application Open Date"]
-export const initialData = internships["internships"];
+
 export const maxColWidth = 200
 export const adjColWidthThres = 120
+
