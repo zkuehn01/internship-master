@@ -4,8 +4,33 @@ const app = express();
 const port = 5000;
 const { format } = require("date-fns");
 const cors = require("cors");
+const mongoose = require("mongoose"); // import mongoose package
 
 app.use(cors());
+
+// define a schema for the job listings collection
+const jobSchema = new mongoose.Schema({
+  department: String,
+  title: String,
+  location: String,
+  summary: String,
+  url: String,
+  startDate: Date,
+  closeDate: Date,
+  education: String,
+  requirements: String,
+  minSalary: Number,
+  maxSalary: Number,
+});
+
+// create a mongoose model for the job listings collection
+const Job = mongoose.model("Job", jobSchema);
+
+// connect to MongoDB database
+mongoose.connect("mongodb://127.0.0.1:27017/Internships", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 app.get("/jobs", async (req, res) => {
   const handshakePostings =
@@ -109,6 +134,8 @@ app.get("/jobs", async (req, res) => {
       }));
 
       allListings = allListings.concat(formattedUsajobsListings);
+      await Job.insertMany(allListings);
+
       
       res.status(200).send(allListings);
     } catch (error) {
@@ -120,6 +147,10 @@ app.get("/jobs", async (req, res) => {
     res.status(500).send({ error: "Failed to retrieve job listings" });
   }
 });
+
+// setInterval(() => {
+//   getJobs();
+// }, 3600000 * 24); // call getJobs function every 24 hours (in milliseconds)
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/jobs`);
